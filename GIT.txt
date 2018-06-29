@@ -1,0 +1,15 @@
+GIT
+
+pwd - print working directory
+copy con - create new empty file
+git config --global user.name "DonS" - sets username
+git config --global user.email "dstcyr@scriptpro.com" - sets email
+git config --list - gets all global info
+git config user.name - gets just the username
+man git - entire manual
+porcelain - high level commands
+plumbing - low level commands
+git help config - opens the commands for config
+git help - short list of porcelain commands
+repo - repository or project
+git init - initializes a new repo (must be inside the save directory)
