@@ -1,5 +1,9 @@
 GIT
 
+@ Basic Commands of Everyday Git
+
+MUST: set Git bash to the working directory (Documents/Git/GitRepo)
+
 pwd - print working directory
 copy con - create new empty file
 git config --global user.name "DonS" - sets username
@@ -13,3 +17,21 @@ git help config - opens the commands for config
 git help - short list of porcelain commands
 repo - repository or project
 git init - initializes a new repo (must be inside the save directory)
+clear - moves the cmd prompt to the top of the window
+git status - shows the status of the project, if there are any changes or new files
+touch filename - Adds an empty file to the directory
+git add filename - adds the file to Git so it will be tracked, also adds modified files to staged
+ls - lists files in directory
+open -a (textEditor) filename - opens the file in the text editor
+git status -s - (or gi status --short) short status, M = Modified, A = New file added to staging area, ?? = New file untracked by Git
+git diff - shows changes that are staged & ready to be committed & changes made, but not staged
+git diff --staged - compares staged files to last committed snapshot
+git diff --staged --no-renames - 
+
+
+Files Tracked by Git
+	Committed: Unmodified changes from the last commit snapshot
+	Modified: Changes made to files since last commit snapshot
+	Staged: Changes marked to be added into the next commit snapshot
+
+
