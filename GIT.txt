@@ -1,6 +1,6 @@
 GIT
 
-@ Basic Commands of Everyday Git
+@ Check Commit History
 
 MUST: set Git bash to the working directory (Documents/Git/GitRepo)
 
