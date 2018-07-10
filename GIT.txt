@@ -27,6 +27,11 @@ git status -s - (or gi status --short) short status, M = Modified, A = New file 
 git diff - shows changes that are staged & ready to be committed & changes made, but not staged
 git diff --staged - compares staged files to last committed snapshot
 git diff --staged --no-renames - 
+git commit -a -m "message text" - commits the changes (can skip the stage), -m adds a message
+git push origin master - publishes the local commits to the remote name (origin) and branch (master)
+git log - lists the commit log
+git log -1 - limits the results to 1
+git log 
 
 
 Files Tracked by Git
