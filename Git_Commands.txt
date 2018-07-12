@@ -1,0 +1,63 @@
+GIT
+
+MUST: set Git bash to the working directory (Documents/Git/GitRepo)
+
+pwd - print working directory
+copy con - create new empty file
+git config --global user.name "DonS" - sets username
+git config --global user.email "dstcyr@scriptpro.com" - sets email
+git config --list - gets all global info
+git config user.name - gets just the username
+man git - entire manual
+porcelain - high level commands
+plumbing - low level commands
+git help config - opens the commands for config
+git help - short list of porcelain commands
+repo - repository or project
+git init - initializes a new repo (must be inside the save directory)
+clear - moves the cmd prompt to the top of the window
+git status - shows the status of the project, if there are any changes or new files & current branch
+touch filename - Adds an empty file to the directory
+git add filename - adds the file to Git so it will be tracked, also adds modified files to staged
+ls - lists files in directory
+open -a (textEditor) filename - opens the file in the text editor
+git status -s - (or gi status --short) short status, M = Modified, A = New file added to staging area, ?? = New file untracked by Git
+git diff - shows changes that are staged & ready to be committed & changes made, but not staged
+git diff --staged - compares staged files to last committed snapshot
+git diff --staged --no-renames - 
+git commit -a -m "message text" - commits the changes (can skip the stage), -m adds a message
+git push origin master - publishes the local commits to the remote name (origin) and branch (master)
+git log - lists the commit log (use Q to exit)
+git log -1 - limits the results to 1 (use Q to exit)
+git log --oneline - all commits in simple format (use Q to exit)
+git log --stat - adds file change info (use Q to exit)
+git log --patch - provides full diff of changes (use Q to exit)
+open - icrap, use start instead
+commit messages template - start http://chris.beams.io/posts/git-commit
+visualizing git - start http://git-school.github.io/visualizing-git/
+git rm filename - stop tracking and stage file for removal
+git rm --cached filename - stops tracking but does not remove
+git mv filename newfilename - renames a file
+git checkout - checkouts to a different branch (git commits will commit to new branch)
+git checkout -b newbranchname - creates a new branch & checkout to it (HEAD will follow newbranchname) (git commits will commit to new branch)
+git checkout master - checkouts to the master branch (HEAD goes to master) (git commits will cause branches to diverge)
+git stash - saves working directory & index state to WIP (work in progress)
+git stash list - lists all of the WIP's for the branch
+git stash show - gives greater detail
+git stash pop - re-adds the WIP back into the branch
+notepad filename - opens the file with notepad
+ssms filename - opens the file with ssms
+git merge branchname - merges branchname into master
+VEM commands - used to add comments to the merge: i = interactive mode, :wq = w equals save & q equals quit
+git reset - alters the commits
+git reset --soft - moves the commit(s) to staging
+git reset --mixed - moves the commits to working
+git reset --hard - moves the commits to the trash
+git clone address
+
+Files Tracked by Git
+	Committed: Unmodified changes from the last commit snapshot
+	Modified: Changes made to files since last commit snapshot
+	Staged: Changes marked to be added into the next commit snapshot
+
+
